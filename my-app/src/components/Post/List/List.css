@@ -1,0 +1,28 @@
+.list-post-container {
+    margin: 10px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.card-header, .card-footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .card-body {
+    max-width: 300px;
+}
+
+.card-body img {
+    height: 60px;
+    width: 95px;
+} */
+
+.card-footer img {
+    width: 25px;
+    height: 25px;
+}
