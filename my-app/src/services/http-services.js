@@ -1,4 +1,5 @@
-const BASE_URL = process.env.NODE_API;
+// const BASE_URL = process.env.NODE_API;
+const BASE_URL = "http://localhost:8000";
 
 export function getAllPost() {
     return fetch(`${BASE_URL}/posts`)
